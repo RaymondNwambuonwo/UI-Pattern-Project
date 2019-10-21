@@ -19,12 +19,12 @@ body {
   h1 {
       color: burlywood;
       text-align: center;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-family: fantasy;
       font-size: 500%;
       animation-name: galaxy; 
-      /* animation-iteration-count: infinite; */
-      animation-duration: 5s;
-      animation-name: slidein;
+      animation-iteration-count: infinite;
+      animation-duration: 10s;
+      /* animation-name: slidein; */
     }
 
     @keyframes galaxy {

@@ -4,19 +4,7 @@
 // console.log(form)
 // console.log(input)
 
-const urlFilms = "https://swapi.co/api/films"
 
-    fetch(urlFilms)
-            .then(res => {
-                    return res.json()
-            })
-            .then(res => {
-                    console.log(res.results) // display name of Film
-                    
-            })
-            .catch(err => {
-                    console.log("something went wrong...", err)
-        })
 
         // console.log("bob")
 
