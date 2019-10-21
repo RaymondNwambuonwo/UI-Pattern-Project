@@ -30,4 +30,4 @@ When contributing to this repository, please first discuss the change you wish t
 ## Acknowledgement 
 Thank you to: 
 - Roger Campbell II for the help and motivation.
-- Erik Terwan, original source code for hamburger menu [https://codepen.io/erikterwan/pen/EVzeRP](Link)
+- Erik Terwan, original source code for hamburger menu [https://codepen.io/erikterwan/pen/EVzeRP]
