@@ -54,7 +54,7 @@ body {
         }
       }
 
-p {
+.welcome {
     color: deepskyblue;
       text-align: center;
       font-family: fantasy;
