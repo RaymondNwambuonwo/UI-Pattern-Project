@@ -1,7 +1,7 @@
-const urlPeople = "https://swapi.co/api/people/"
-const grabPeople = document.querySelector('.people') 
+const urlSpecies = "https://swapi.co/api/species/" 
+const grabSpecies = document.querySelector('.Species') 
 
-    fetch(urlPeople)
+    fetch(urlSpecies)
             .then(res => res.json()) //this is bringing in the data and converting it to Json data
             .then(res => {       //this  is using an arrow function to console log the results.
                 console.log(res.results) //results is what is holding the information 
@@ -11,13 +11,13 @@ const grabPeople = document.querySelector('.people')
                     let newContent = document.createTextNode(indices.name) // this creates a new variable that is equal to creating a text node, indicies is the array and .title is gonna give me the title of each film
                     //console.log(newContent)
                     newP2.appendChild(newContent); //then in order to add this information I append it.
-                    console.log(newP2)
-                    grabPeople.appendChild(newP2) // then i append it to the tag/div i set
+                    // console.log(newP2)
+                    grabSpecies.appendChild(newP2); // then i append it to the tag/div i set
                     //console.log(indices.title)
-                    let p3 = document.createElement("p") // here I am doing the same thing as above but creating a new paragraph
-                    let birthYear = document.createTextNode(indices.birth_year)
-                    p3.appendChild(birthYear);
-                    grabPeople.appendChild(p3)
+                    // let p3 = document.createElement("p"); // here I am doing the same thing as above but creating a new paragraph
+                    // let language = document.createTextNode(indices.language);
+                    // p3.appendChild(language);
+                    // grabSpecies.appendChild(p3);
                     // have it create a p tag
                     // set the value of each p tag to the value of the array you want 
                 });
