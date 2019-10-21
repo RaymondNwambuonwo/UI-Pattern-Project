@@ -21,6 +21,9 @@ The UI pattern I chose was the hamburger menu to where I took elements from a co
 ## Built With
 **[Visual Studio Code](https://code.visualstudio.com/)** 
 
+## API Used
+**[Star Wars](https://swapi.co/)**
+
 ## Contribution
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owner of this repository before making a change.
 
