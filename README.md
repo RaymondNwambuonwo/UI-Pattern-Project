@@ -31,3 +31,4 @@ When contributing to this repository, please first discuss the change you wish t
 Thank you to: 
 - Roger Campbell II for the help and motivation.
 - Erik Terwan, original source code for hamburger menu [https://codepen.io/erikterwan/pen/EVzeRP]
+- Free usable image from [https://wallpaperaccess.com/star-wars]
