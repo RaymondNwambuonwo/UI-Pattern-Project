@@ -54,6 +54,16 @@ body {
         }
       }
 
+p {
+    color: deepskyblue;
+      text-align: center;
+      font-family: fantasy;
+      font-size: 500%; 
+      animation-duration: 5s;
+      animation-name: slidein;
+}
+
+
 
 a
 {
